@@ -1,0 +1,8 @@
+{application, hexpm_cdn,
+[
+    {description, "hexpm_cdn"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [kernel, stdlib, ssl, inets, cowboy]},
+    {mod, {hexpm_cdn_app, []}}
+]}.
